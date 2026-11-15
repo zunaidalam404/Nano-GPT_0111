@@ -3,7 +3,7 @@ import torch.nn as nn
 from torch.nn import functional as F
 
 
-# Model Configuration
+# Model Configuration 
 block_size = 256
 n_embd = 384
 n_head = 6
