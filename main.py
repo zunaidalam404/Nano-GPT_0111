@@ -50,7 +50,7 @@ def chat(request: ChatRequest):
 
     response = generate_response(
         request.message,
-        max_new_tokens=200
+        max_new_tokens=150
     )
 
     return {
